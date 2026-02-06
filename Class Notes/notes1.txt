@@ -16,7 +16,7 @@ Local Repo
     > git init  // to initalize
     > git config --global user.name"vyas"
     >git config --global user.email"vedavyas069@gmail.com"
-    >git add.        // to add coding files
+    >git add .        // to add coding files
     >git commit -m "coding files added"
     >git remote add origin "URL"  // to connect to cloud 
     >git push -u origin master  // to push code into cloud 
