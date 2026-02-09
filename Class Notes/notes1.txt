@@ -21,3 +21,28 @@ Local Repo
     >git remote add origin "URL"  // to connect to cloud 
     >git push -u origin master  // to push code into cloud 
                               
+
+Semantic Sements             9/2/26                 
+***************
+     new tags called as semantic elements.
+     semantic elements released in HTML5.X
+     Semantic elements increases application readability and modularity.
+     Ex.
+        <audio></audio>
+        <video></video>
+        <header></header>
+        <nav></nav>
+        <aside></aside>
+        <main></main>
+        <footer></footer>
+        <summary></summary>
+        <section></section>
+        <article></article>
+
+        <audio></audio>
+        ********
+        ->used to play audio  in web pages.
+
+       <video></video>
+       *********
+       -> used to play video in web pages.
