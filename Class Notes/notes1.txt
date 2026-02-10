@@ -46,3 +46,64 @@ Semantic Sements             9/2/26
        <video></video>
        *********
        -> used to play video in web pages.
+
+
+
+PARAGRAPH                   10/2/26
+*********
+    <p></P> is used to display PARAGRAPHs.
+    <p></p> also block level element.
+
+
+class selector
+*************
+
+class selector starts with "."(dot)
+syntax.
+
+HTML                           cSS 
+****
+<p class="c1"></p>              .c1{}
+<p class="c2 c3"></p>           .c2{}
+                                .c3{}
+
+id selector
+*********
+     id selector starts with "#"(hash)
+     Syntax.
+     ******
+
+    HTML                       CSS 
+    <p id="id1"></p>            #id1
+
+what are The diff between class and id selector?
+
+the class selector starts with"." and id starts with "#".
+The diff between class and id selector is id selector have more priority(specificity) compared to class 
+Class selector  may duplicate. but id selector must be unique.
+USECASE:
+        Class                                id
+        in single project with multiple     to dominate 3rd party styles
+                                             we wil use id selector
+        teams are working then we choose 
+        class selector.
+
+
+element selector
+***************
+     it starts with tag name
+Syntax:
+
+        HTML             css
+        <p></p>          p{}  
+
+
+
+
+Divisions
+********
+ Divisionsare used to divide wen=b page to multiple sections.
+ <div></div> used to create divisions 
+ <div></div> is block level element 
+ 
+
