@@ -1,7 +1,8 @@
 audio,video{
     border:5px solid gray;
-    padding:30px;
-    border-radius:30px;
-    margin:30px;
-    display:block; /* inline - block */
+    padding: 20px;
+   display: inline-block;
+   margin: 30px;
+   border-radius: 20px;   
 }
+

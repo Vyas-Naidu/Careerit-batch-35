@@ -104,6 +104,64 @@ Divisions
 ********
  Divisionsare used to divide wen=b page to multiple sections.
  <div></div> used to create divisions 
- <div></div> is block level element 
- 
+ <div></div> is block level element.
+
+
+                            11-02-26
+
+
+
+waht are the differneces between external & internal styles?
+            INTERNAL                            external
+ ->  Style></style> is used to              <link> tag is used to external styles
+     include INTERNALstyles
+ -> <style></style> is paired tag           <link> is non-paired tag.
+ -> we may not reuse the styles             we can reuse styles
+*******************************************************************************   
+
+
+Decendent selector
+*********
+Decendent selector also called as "dependent selector".
+select an element adjusted in a  existing element.
+
+Ex.
+    <div>
+    <p></P>
+    </div
+
+selector under the division.
+
+Syntax.
+*******
+        HTML                        CSS
+        ****                        ***
+    <div>                           div p{}
+        <p></p>
+    </div>
+
+
+    <div class="c1">                .c1 p{}
+        <p></p>
+    </div>
+
+
+
+Buttons
+******
+<button></button> is used to display buttons in web pages.
+<button></button> is inline element.
+
+
+In how many ways we can apply styles?
+ We can apply in three ways :
+1. Extrenal styles -> by using <link> tag
+2. internal styles -> by using <style></style> tag 
+3. Inline styles   -> by using style="" attribute.
+
+Explain CSS specificity rule?
+
+    inline styles> id selector > class selector > element selector > universal selector.
+    
+    " * " used to represent universal selector.
 
