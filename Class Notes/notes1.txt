@@ -165,3 +165,76 @@ Explain CSS specificity rule?
     
     " * " used to represent universal selector.
 
+
+
+                        12/02
+
+
+Images
+******
+
+    <img></img> is used to display images.
+    <img></img> is inline element.
+    <img></img> is non-paired tag.
+
+ATTRIBUTES
+*********
+ 1) width
+        used to define image width.
+        Ex:  
+             width="100"
+
+2) height 
+         used to define image height.
+         EX:
+             height="100"
+
+3) src 
+        used to refer image path
+        Ex:
+             src=<path>
+
+
+
+4) alt 
+         stands for alternative text.
+    Note: if image display fails automatically alternative text will displayed.
+        
+
+
+
+Pseudo Classes in CSS
+********************
+
+    Pseudo classes used to set special state to an element.
+    we will apply Pseudo classesby using ":".
+    EX:
+        :hover{}
+        :first-of-type{}
+        :last-of-type{}
+        :nth-child{}
+        :not
+        ---
+        --
+        -
+
+Fontawesome
+**********
+    Fontawesome is the CSS "library".
+    Fontawesome used to display symbols.
+    <i></i> used to display symbols
+    Fontawesome CDN, we must include inside head section webpage.
+    CDN stands for content Delivery Network.
+
+    <linl rel="stylesheet"
+        href="
+
+         Ex.
+             rupee  <i class="fa fa-inr "></i>
+             dollar <i class="fa fa-dollar"></i>
+             trash <i class="fa fa-trash "></i>
+             Edit <i class="fa fa- edit"></i>
+             Facebook <i class="fa fa-facebook "></i>
+
+
+   
