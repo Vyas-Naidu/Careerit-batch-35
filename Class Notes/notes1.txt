@@ -237,4 +237,19 @@ Fontawesome
              Facebook <i class="fa fa-facebook "></i>
 
 
-   
+                                13/02
+
+
+Anchor tag
+*******
+   <a> </a> is used to create "hyperlinks".
+   <a> </a> is inline element.
+   <a> </a> used to navigate from one webpage to another webpage.
+   <a> </a> used to open external websites.
+   <a> </a> also used to send emails.
+
+   ATTRIBUTES
+   *********
+   1) href: used to refer "target" location (path).
+   2) target="_blank"  used to open new tab.
+
