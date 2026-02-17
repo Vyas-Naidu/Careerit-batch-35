@@ -253,3 +253,91 @@ Anchor tag
    1) href: used to refer "target" location (path).
    2) target="_blank"  used to open new tab.
 
+
+
+
+
+                            14/02
+
+
+Tables
+*****
+        collection of rows and columns 
+    
+
+    Tags
+    ***
+    1. <tables></table> used to create table.
+
+    2. <tr></tr> used to create rows.
+    3. <th></th> used to create table headings
+                by default table headings in first row
+    4. <td></td> used to create  a cell.
+
+ATTRIBUTES
+*********
+1. border: used to draw broder to the table.
+        Ex. 
+        border="1"
+2. align="left" / "center" / "right" 
+        used to align the table
+        "left is the default alignment"
+        Ex.
+            align="center"
+ 3. cell padding               
+         space around the table cell content.
+         Ex.
+            cellpadding="10"
+4. cellspacing 
+            space around the table cell content.
+            Ex.
+                cellspacing="10"
+5. colspan
+            used to merge cells based on columns(horizontally)
+            EX.
+                colspan="2"
+6. rowspan
+           used to merge cells based on rows   
+
+
+
+    ******************
+                            16/02
+
+Forms                 
+*****
+    collection of related data.
+    Ex.
+        login form 
+        registration form
+        enrollmentform
+        ...
+        ..
+        .
+
+Tags
+***
+<form action="" method="GET/POST/PUT/DELETE" name="" onsubmit="" onreset=""></form>
+action attribute used to connect to backend
+methods attribute supports four methods
+    GET method, used to read data from backend
+    POST method, used to send data to backend
+    PUT method, used to update the data to backend
+    DELETE method, used to DELETE backend data 
+
+name attribute, used to assign logical name to the form
+    Ex.
+       name="regform"
+
+onsubmit attribute,used to handle submit event
+
+Ex. onsubmit ="register()"
+     whenever we click the submit button,automatically the register() will execute in javascript
+
+onresert attribute, used to handle reset event
+Ex.
+    onreset="cancel()"
+      whenever we click the cancel button,automatically the cancel() will execute in javascript
+
+
+                               
