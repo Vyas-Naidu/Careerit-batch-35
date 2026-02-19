@@ -340,4 +340,79 @@ Ex.
       whenever we click the cancel button,automatically the cancel() will execute in javascript
 
 
-                               
+                               18/02
+    
+
+    Lists
+    *****
+         html suppports 3 types of lists 
+         1. Ordered lists
+         2. Unordered list.
+         3. defination list.
+
+         1. Ordered List
+          ************  
+         <ol></ol> used to create ordred list
+         <li>/<li> tag is used to create "List Item"
+
+         syntax: 
+                 <ol>
+                 <li></li>
+                 <li></li>
+                 <li></li>
+                 .
+                 </ol>
+        Attributes:
+
+        1. type="A" / "a" / "I" / "i" / 1
+            default is number.
+        2. start
+            used to specify starting number in list.
+            Ex.
+                start= "10"
+        3. reversed
+             used to reverse the list number.
+
+
+
+        2. Unorderd list
+          *************
+          used to create unordered list
+          syntax:
+                 <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+            Attributes:
+            *********
+             type= "disc" / "circle" / "square"
+                default is "disc"
+
+
+        3. Defination List
+            ************
+            <dl></dl> is the tage used to create Defination list.
+            <dt></dt> is the tag used to create defination term (side heading)
+            <dd></dd> is the tag used to create defination description
+            Syntax:
+                    <dl>
+                        <dt></dt>
+                        <dd></dd>
+                        <dd></dd>
+                        .
+                        .
+                        .
+                        <dt></dt>
+                        <dd></dd>
+                        <dd></dd>
+                        .
+                        .
+                        .
+                        <dt></dt>
+                        <dd></dd>
+                        <dd></dd>
+                        .
+                        .
+                        .
+                    </dl>

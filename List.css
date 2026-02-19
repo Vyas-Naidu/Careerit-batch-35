@@ -1,0 +1,22 @@
+ol,ul{
+    background-color: lightblue;
+    width: 20%;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+li{
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: lightcoral;
+
+}
+li:hover{
+    background-color: darkblue;
+    color:aqua;
+
+}
