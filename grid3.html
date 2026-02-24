@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>grid Ex</title>
+        <style>
+            *{
+                padding: 0px;
+                margin: 0px;
+                box-sizing:border-box;
+            }
+            .parent{
+                color:white;
+                height:100vh;
+                text-align: center;
+                font-weight: bold;
+
+                display: grid;
+                grid-template-columns: 25% 50% 25%;
+                grid-template-rows:30% 50% 20%;
+                
+                gap: 5px;
+                padding: 50px;             
+                  
+
+            }
+                    
+            
+            .header{
+                background-color: rgb(51, 159, 242);
+                grid-column: 1/4;
+                grid-row: 1/2;
+            }
+            .left{
+                background-color: aqua;
+                grid-column:1/2;
+                grid-row:2/3;
+            }
+            .content{
+                background-color: gray;
+                grid-column:2/3;
+                grid-row:2/3;
+            }
+            .right{
+                background-color: aqua;
+                grid-column: 3/4;
+                grid-row:2/3;
+            }
+            .foot{
+                background-color: rgb(51, 159, 242);
+                grid-column: 1/4;
+                grid-row: 3/4;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="header">Header</div>
+            <div class="left">Navbar</div>
+            <div class="content">Content</div>
+            <div class="right"> Aside</div>
+            <div class="foot"> Footer</div>
+        </div>
+    </body>
+</html>

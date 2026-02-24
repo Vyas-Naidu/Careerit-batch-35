@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Example</title>
+        <style>
+            
+            *{
+                  padding: 0px;
+                margin: 0px;
+                box-sizing: border-box;
+
+            }
+            .parent{
+                height: 100vh;
+                color: white;
+                text-align: center;
+                display: grid;
+                grid-template-rows: 10% 30% 50% 10% ;
+                grid-template-columns: 25% 25% 25% 25%;
+                gap: 5px;
+                padding: 50px;
+            }
+            .header{
+                background-color: chocolate ;
+                grid-column: 1/5;
+                grid-row: 1/2;
+            }
+            .smb1{
+                background-color: chocolate ;
+                grid-column: 1/2;
+                grid-row : 2/3;
+            }
+            .smb2{
+                background-color: chocolate ;
+                grid-column: 2/3;
+                grid-row: 2/3 ;
+            }
+            .smb3{
+                background-color: chocolate ;
+                grid-column: 3/4;
+                grid-row: 2/3;
+            }
+            .right{
+                background-color: chocolate ;
+                grid-column: 4/5;
+                grid-row: 2/4;
+            }
+            .content{
+                background-color: chocolate ;
+                grid-column: 1/4;
+                grid-row: 3/4;
+            }
+            .footer{
+                background-color: chocolate ;
+                grid-column: 1/5;
+                grid-row: 4/5;
+            }
+            .header,
+             .smb1,
+              .smb2,
+               .smb3,
+                .right,
+                 .content,
+                  .footer{
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="header">Header</div>
+            <div class="smb1">small box</div>
+            <div class="smb2">small box</div>
+            <div class="smb3">small box</div>
+            <div class="right"> aside</div>
+            <div class="content">Main content</div>
+            <div class="footer"> footer</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Ex-2</title>
+        <style>
+            *{
+                  padding: 0px;
+                margin: 0px;
+                box-sizing: border-box;
+
+            }
+            .parent{
+              height: 100vh; 
+              color: black;
+              font-weight: bold;
+              text-align: center;
+              display: grid;
+              grid-template-columns: 33% 34% 33%;
+              grid-template-rows: 15% 15% 70%;
+              padding:50px;
+              gap: 5px ;            
+            }
+            .header,
+            .search,
+            .Right,
+            .left,
+            .middle {
+                border-radius: 5px;
+            }
+            .header{
+                background-color: rgb(205, 148, 41);
+                grid-column: 1/4;
+                grid-row: 1/2;
+            }
+            .search{
+                background-color: rgb(124, 214, 124);
+                grid-column: 1/3;
+                grid-row: 2/3;
+            }
+            .Right{
+                background-color: rgb(220, 120, 120);
+                grid-column: 3/4;
+                grid-row: 2/4;
+            }
+            .left{
+                background-color: rgb(175, 235, 235);
+                grid-column: 1/2;
+                grid-row: 3/4;
+            }
+            .middle{
+                background-color: rgb(188, 105, 188);
+                grid-column: 2/3;
+                grid-row: 3/4;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="header"> header</div>
+            <div class="search">Search</div>
+            <div class="Right">Right Sidebar</div>
+            <div class="left"> Left Sidebar</div>
+            <div class="middle">Middle Column</div>
+        </div>
+    </body>
+</html>

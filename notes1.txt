@@ -173,7 +173,7 @@ Explain CSS specificity rule?
 Images
 ******
 
-    <img></img> is used to display images.
+    <img   style= "></img> is used to display images.
     <img></img> is inline element.
     <img></img> is non-paired tag.
 
@@ -356,8 +356,8 @@ Ex.
          <li>/<li> tag is used to create "List Item"
 
          syntax: 
-                 <ol>
-                 <li></li>
+                 <ol  start= >
+                 <li ></li>
                  <li></li>
                  <li></li>
                  .
